@@ -1,216 +1,86 @@
+<p align="center">
+  <img src="./assets/cover.png" alt="LLM / Agent 学习资源导航封面" width="100%" />
+</p>
+
 # LLM / Agent 学习资源导航
 
-面向中文开发者的大模型、RAG 与 Agent 学习资源导航仓库。
+这是一份面向中文开发者的 LLM / RAG / Agent 学习教程清单，目标很简单：帮你更快找到值得学、适合自己当前阶段的资料。
 
-- 更快找到高质量学习资源
-- 根据自己的目标选择合适路线
-- 从 LLM 基础过渡到 RAG、Agent 与工程实践
+- 适合谁：想系统补基础、想尽快跑通应用、想做 RAG / Agent 工程实践的人
+- 如何使用：先看最符合你当前目标的分组，再根据 `简介` 和 `适合谁 / 推荐理由` 选择资源
+- 热度说明：仅 GitHub 仓库资源显示 `⭐ Stars`，用于辅助判断社区热度；数据按每日自动同步更新
 
-## 目录
+## 🧠 想先把 LLM 基础学明白
 
-- [这个仓库适合谁](#这个仓库适合谁)
-- [如何使用](#如何使用)
-- [快速选资源](#快速选资源)
-- [推荐学习路线](#推荐学习路线)
-- [资源目录](#资源目录)
-- [收录标准](#收录标准)
-- [如何贡献](#如何贡献)
-- [维护策略](#维护策略)
-- [免责声明](#免责声明)
-- [Roadmap](#roadmap)
-- [License](#license)
+如果你还在补大模型原理、Transformer、预训练、推理机制这些基础，先从这一组开始。
 
-## 这个仓库适合谁
+| 资源 | 简介 | 适合谁 / 推荐理由 |
+| --- | --- | --- |
+| [Happy-LLM](https://github.com/datawhalechina/happy-llm)<br>⭐ Stars：30.7k | 中文友好的系统教程，覆盖大模型核心原理与实践。 | 适合谁：想系统理解 Transformer、预训练和推理机制的人。<br>推荐理由：适合作为大模型原理主线教材。 |
+| [LLMBook](https://github.com/datawhalechina/llmbook)<br>⭐ Stars：137 | 偏教材化、体系化的大模型资料。 | 适合谁：希望系统补课、需要一本中文手册型资料的人。<br>推荐理由：适合查漏补缺和构建知识地图。 |
+| [llms-from-scratch-cn](https://github.com/datawhalechina/llms-from-scratch-cn)<br>⭐ Stars：4.2k | 从 0 到 1 实现一个大模型的中文项目。 | 适合谁：代码基础较好、想深入底层机制的人。<br>推荐理由：能帮助你从实现角度理解模型结构和训练逻辑。 |
+| [Hugging Face LLM Course](https://huggingface.co/huggingface-course) | 面向 NLP 与模型基础的公开课程。 | 适合谁：想系统补理论和 Hugging Face 生态知识的人。<br>推荐理由：结构清晰，适合和中文资料互补。 |
 
-- 想系统学习大模型基础原理的开发者
-- 想做 RAG、知识库、文档问答系统的工程师
-- 想学习 Agent、工作流、工具调用、多 Agent 协作的人
-- 想找中文友好资料，但又不希望和官方英文文档脱节的人
+## ⚡ 想尽快把开源模型和应用跑起来
 
-## 如何使用
+如果你更关心“先跑通、先做出东西”，优先看这组，能更快从概念进入实践。
 
-如果你是第一次接触这个方向，建议按下面顺序学习：
+| 资源 | 简介 | 适合谁 / 推荐理由 |
+| --- | --- | --- |
+| [self-llm](https://github.com/datawhalechina/self-llm)<br>⭐ Stars：30.7k | 面向中文开发者的开源大模型部署、微调与使用实战教程。 | 适合谁：想尽快把本地或开源模型跑起来的人。<br>推荐理由：上手导向强，适合从“先跑通”切入大模型实践。 |
+| [llm-universe](https://github.com/datawhalechina/llm-universe)<br>⭐ Stars：13.1k | 面向应用开发者的大模型实践项目，包含知识库与应用搭建路线。 | 适合谁：想快速搭建大模型应用的人。<br>推荐理由：适合从“跑通应用”视角切入 RAG 和应用开发。 |
+| [OpenAI Responses API](https://platform.openai.com/docs/api-reference/responses/create?api-mode=responses) | 当前 OpenAI 的核心生成式接口文档。 | 适合谁：想理解现代模型接口、多模态和结构化输出的人。<br>推荐理由：能帮助你把基础认知连接到实际 API 使用。 |
 
-1. 先建立大模型基础认知
-2. 再学习 Prompt、RAG、知识库等应用开发能力
-3. 最后进入 Agent、工作流编排和工程化框架
+## 📚 想做 RAG / 企业知识库
 
-如果你时间有限，优先从 `快速选资源` 和 `推荐学习路线` 开始。
+如果你的目标是文档问答、企业知识库、检索增强生成或者更稳定的问答系统，这一组最值得先看。
 
-说明：各分类页中的 GitHub 仓库资源会展示 `Stars`、`较上次变化` 和 `统计时间`，用于辅助判断资料热度与社区活跃度。这些数据按每日自动追踪更新，但 GitHub Actions 定时任务可能存在延迟，不保证分钟级实时。
+| 资源 | 简介 | 适合谁 / 推荐理由 |
+| --- | --- | --- |
+| [all-in-rag](https://github.com/datawhalechina/all-in-rag)<br>⭐ Stars：8k | 面向 RAG 的中文系统教程，覆盖理论、实践和工程化。 | 适合谁：想做企业知识库、内部问答、文档问答系统的人。<br>推荐理由：中文资料里覆盖面较完整，实用性强。 |
+| [OpenAI Cookbook - File Search RAG](https://cookbook.openai.com/examples/file_search_responses) | 基于文件检索能力的官方 RAG 示例。 | 适合谁：想快速理解文件检索型 RAG 的人。<br>推荐理由：示例贴近当前主流 API 能力，适合作为现代 RAG 参考。 |
+| [Building and Evaluating Advanced RAG](https://www.deeplearning.ai/courses/building-evaluating-advanced-rag) | 聚焦高级 RAG 与评测方法的短课。 | 适合谁：已经做过基础 RAG，想提升稳定性和效果的人。<br>推荐理由：补上“怎么评估和优化”的关键能力。 |
+| [Retrieval Augmented Generation (RAG)](https://www.deeplearning.ai/courses/retrieval-augmented-generation-rag) | 从检索、向量库、Prompt 到评测的系统课程。 | 适合谁：想完整学习 RAG 全流程的人。<br>推荐理由：适合建立更完整的工程化视角。 |
+| [LangChain RAG Tutorial](https://docs.langchain.com/oss/python/langchain/rag) | 用 LangChain 构建 RAG 应用的官方教程。 | 适合谁：准备上手框架构建 RAG 原型的人。<br>推荐理由：有助于从概念过渡到框架实践。 |
+| [Building Agentic RAG with LlamaIndex](https://www.deeplearning.ai/courses/building-agentic-rag-with-llamaindex/) | 围绕 Agentic RAG、Router 和 Tool Calling 的课程。 | 适合谁：想让 RAG 系统具备更主动决策能力的人。<br>推荐理由：适合作为 RAG 到 Agent 的过渡材料。 |
 
-## 快速选资源
+## 🤖 想学 Agent / Workflow
 
+如果你准备进入工具调用、工作流编排、多 Agent 协作或产品化 Agent 系统，这一组最实用。
 
-| 目标                   | 优先看什么                                                                                                                                                                                                               | 适合原因               |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| 想先把大模型基础学明白          | [Happy-LLM](https://github.com/datawhalechina/happy-llm)、[LLMBook](https://github.com/datawhalechina/llmbook)                                                                                                       | 偏系统化、偏原理，适合建立完整认知  |
-| 想尽快把开源模型跑起来          | [self-llm](https://github.com/datawhalechina/self-llm)、[llm-universe](https://github.com/datawhalechina/llm-universe)                                                                                               | 偏部署、微调、使用，适合快速上手   |
-| 想做企业知识库 / RAG        | [all-in-rag](https://github.com/datawhalechina/all-in-rag)、[Advanced RAG](https://www.deeplearning.ai/courses/building-evaluating-advanced-rag)                                                                     | 理论、实战和课程三条线比较完整    |
-| 想学 Agent 原理与实战       | [hello-agents](https://github.com/datawhalechina/hello-agents)、[Hugging Face Agents Course](https://huggingface.co/learn/agents-course/en)、[OpenAI Agents SDK](https://platform.openai.com/docs/guides/agents-sdk/) | 从概念到框架、再到官方实践比较顺   |
-| 想做工作流 / 低代码 Agent 应用 | [Dify](https://github.com/langgenius/dify)、[Dify Docs](https://docs.dify.ai/en/use-dify/build/agent)                                                                                                                | 适合产品化原型、工作流编排和团队协作 |
-| 想补全英文官方视角            | [OpenAI Cookbook](https://cookbook.openai.com/topic/agents)、[LangChain Learn](https://docs.langchain.com/oss/python/learn)、[LlamaIndex Agents](https://docs.llamaindex.ai/en/stable/understanding/agent/)           | 更新快，适合跟进主流实践       |
+| 资源 | 简介 | 适合谁 / 推荐理由 |
+| --- | --- | --- |
+| [hello-agents](https://github.com/datawhalechina/hello-agents)<br>⭐ Stars：54.1k | 从 0 讲解 Agent 基本概念、范式和实战思路。 | 适合谁：想从零入门 Agent 的开发者。<br>推荐理由：适合作为 Agent 第一门中文课。 |
+| [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents) | 讲清楚 Agent 的模型、工具、知识与控制流。 | 适合谁：想建立现代 Agent 官方视角的人。<br>推荐理由：概念准，适合作为实践前的统一参照。 |
+| [OpenAI Agents SDK](https://platform.openai.com/docs/guides/agents-sdk/) | OpenAI Agent 开发 SDK 文档。 | 适合谁：准备真正编写 Agent 代码的人。<br>推荐理由：适合把概念落到实际实现。 |
+| [LangGraph](https://github.com/langchain-ai/langgraph)<br>⭐ Stars：33.2k | 适合复杂、可控、可恢复的 Agent 工作流编排框架。 | 适合谁：要做多步骤、生产级 Agent 的团队。<br>推荐理由：当前 Agent 工作流领域的重要框架。 |
+| [AutoGen](https://github.com/microsoft/autogen)<br>⭐ Stars：58.5k | 微软推出的多 Agent 编程框架。 | 适合谁：研究型、多角色协作型场景。<br>推荐理由：适合探索协同式 Agent 设计。 |
+| [CrewAI](https://github.com/crewAIInc/crewAI)<br>⭐ Stars：52.3k | 强调角色分工和任务协作的多 Agent 框架。 | 适合谁：想快速组织多个角色 Agent 的开发者。<br>推荐理由：概念清晰，适合任务拆分类场景。 |
+| [Dify](https://github.com/langgenius/dify)<br>⭐ Stars：143k | 开源 LLM 应用开发平台，支持工作流、RAG 和 Agent。 | 适合谁：想快速做产品原型、低代码搭建应用的人。<br>推荐理由：适合团队协作与快速产品化。 |
 
+## 🎓 想系统跟课程学习
 
-## 推荐学习路线
+如果你更喜欢“跟着课程学”，这一组更适合按章节推进，建立稳定的学习节奏。
 
-### 路线 A：普通开发者快速上手
+| 资源 | 简介 | 适合谁 / 推荐理由 |
+| --- | --- | --- |
+| [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)<br>⭐ Stars：111k | 面向初学者的生成式 AI 系列课程。 | 适合谁：想从通识到应用建立整体认知的人。<br>推荐理由：课程组织清晰，适合做知识框架搭建。 |
+| [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/courses/chatgpt-prompt-eng) | 经典 Prompt 工程入门短课。 | 适合谁：刚开始接触提示词与 LLM 应用开发的人。<br>推荐理由：短而实用，适合快速入门。 |
+| [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/en) | 系统化的 Agent 课程，覆盖多个工具链和实践任务。 | 适合谁：想系统学 Agent 的开发者。<br>推荐理由：内容完整，生态视角丰富。 |
 
-1. [self-llm](https://github.com/datawhalechina/self-llm)
-2. [llm-universe](https://github.com/datawhalechina/llm-universe)
-3. [all-in-rag](https://github.com/datawhalechina/all-in-rag)
-4. [hello-agents](https://github.com/datawhalechina/hello-agents)
+## 🧭 想继续扩展视野 / 查找更多资料
 
-适合：
+如果你已经找到主线教程，想持续扩展框架、课程和资料池，可以从这一组往外发散。
 
-- 想尽快做出 Demo
-- 想验证业务场景
-- 想先做知识库、问答系统、助手类应用
+| 资源 | 简介 | 适合谁 / 推荐理由 |
+| --- | --- | --- |
+| [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)<br>⭐ Stars：1.8k | 中文社区中的 Agent 路线图与资源集合。 | 适合谁：希望优先看中文导航的人。<br>推荐理由：便于和本仓库形成互补。 |
+| [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)<br>⭐ Stars：26.9k | 大模型相关论文、课程、工具、框架和数据的综合清单。 | 适合谁：想系统扫全局生态的人。<br>推荐理由：覆盖面广，适合作为检索入口。 |
+| [Awesome Agent Learning](https://github.com/artnitolog/awesome-agent-learning)<br>⭐ Stars：132 | 专门面向 Agent 学习路径的课程与阅读列表。 | 适合谁：已经对 Agent 有兴趣，想持续扩展的人。<br>推荐理由：主题聚焦，适合做后续延展阅读。 |
+| [Awesome AI Agents](https://github.com/brandonhimpfen/awesome-ai-agents)<br>⭐ Stars：11 | 汇总 Agent 框架、平台、示例和学习资料。 | 适合谁：想快速了解 Agent 生态格局的人。<br>推荐理由：适合作为框架和案例导航。 |
 
-### 路线 B：想把原理学扎实
+## 补充说明
 
-1. [Happy-LLM](https://github.com/datawhalechina/happy-llm)
-2. [LLMBook](https://github.com/datawhalechina/llmbook)
-3. [llms-from-scratch-cn](https://github.com/datawhalechina/llms-from-scratch-cn)
-4. [Hugging Face LLM Course](https://huggingface.co/huggingface-course)
-
-适合：
-
-- 想长期做 AI 应用开发
-- 想补齐 Transformer、预训练、微调、推理等基础
-- 不满足于只会调接口
-
-### 路线 C：想做 RAG / Agent 工程
-
-1. [all-in-rag](https://github.com/datawhalechina/all-in-rag)
-2. [Building and Evaluating Advanced RAG](https://www.deeplearning.ai/courses/building-evaluating-advanced-rag)
-3. [hello-agents](https://github.com/datawhalechina/hello-agents)
-4. [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/en)
-5. [LangChain Learn](https://docs.langchain.com/oss/python/learn)
-6. [OpenAI Agents SDK](https://platform.openai.com/docs/guides/agents-sdk/)
-
-适合：
-
-- 企业知识库
-- 工具调用型 Agent
-- 多步骤工作流和研究型助手
-
-## 资源目录
-
-完整资源清单已拆分到 `resources/` 目录，README 只保留首页导航与精选入口。
-
-- [LLM 基础](resources/llm.md)
-- [RAG / 知识库](resources/rag.md)
-- [Agent / Workflow](resources/agent.md)
-- [课程 / 教程](resources/courses.md)
-- [导航 / Awesome](resources/awesome.md)
-
-推荐优先看这 6 个资源：
-
-1. [Happy-LLM](https://github.com/datawhalechina/happy-llm)
-2. [self-llm](https://github.com/datawhalechina/self-llm)
-3. [all-in-rag](https://github.com/datawhalechina/all-in-rag)
-4. [hello-agents](https://github.com/datawhalechina/hello-agents)
-5. [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/en)
-6. [OpenAI Cookbook - Agents](https://cookbook.openai.com/topic/agents)
-
-## 仓库结构
-
-```text
-.
-├── .github/                # Issue / PR 模板与社区配置
-├── resources/              # 分类资源清单
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-└── SECURITY.md
-```
-
-## 收录标准
-
-本仓库优先收录满足以下条件的资源：
-
-- 公开可访问，最好长期稳定可用
-- 与 LLM、Prompt、RAG、Agent、Workflow 学习强相关
-- 内容质量稳定，有明确教程、文档或系统化知识输出
-- 对中文开发者有明显帮助，或属于高价值官方文档
-
-以下内容原则上不收录：
-
-- 纯营销页或导流页
-- 几乎没有实质内容的项目
-- 已长期停止维护且无明显参考价值的资源
-- 与已有资源高度重复但质量更弱的项目
-
-资源主分类固定为：
-
-- `LLM 基础`
-- `Prompt / 应用开发`
-- `RAG / 知识库`
-- `Agent / Workflow`
-- `课程 / 教程`
-- `导航 / Awesome`
-
-每条资源至少应包含：
-
-- 名称
-- 链接
-- 分类
-- 简介
-- 适合谁
-- 推荐理由
-
-## 如何贡献
-
-欢迎通过 Issue 或 PR 参与维护，常见贡献类型包括：
-
-- 新增优质资源
-- 修复失效链接
-- 补充简介或适合人群说明
-- 调整分类
-- 修正文案错误或过时信息
-
-开始贡献前，建议先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
-
-默认协作方式：
-
-1. 先通过 Issue 提议资源或问题
-2. 确认方向后提交 PR
-3. 维护者审核后合并
-
-外部贡献默认优先修改 `resources/*.md`，不建议直接大幅重写 README。
-
-## 维护策略
-
-- 当前以人工维护为主
-- 首发版本暂不引入自动化失效链接检查
-- README 作为首页导航，详细内容进入 `resources/`
-- 后续若资源量持续增长，再考虑引入数据化维护和自动化校验
-
-## 免责声明
-
-- 本仓库仅整理公开可访问的学习资源链接与简要说明，不对第三方网站内容负责
-- 部分外部资源可能随时间发生失效、迁移、收费或内容变更
-- 收录不代表对资源中所有观点、实现方式或商业行为的完全背书
-- 如果你发现恶意链接、侵权内容或明显错误，请通过 Issue 或私下联系维护者处理
-
-## Roadmap
-
-- 完善 `resources/` 下的分类页内容密度和更新节奏
-- 增加更明确的初学者路线、企业场景路线和进阶路线
-- 逐步补充 Prompt / 应用开发专门分类
-- 后续评估是否引入自动化链接检查
-- 后续评估是否基于这些内容生成独立网站
-
-## License
-
-本仓库内容采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可协议。
-
-这意味着你可以分享和改编本仓库内容，但需要：
-
-- 保留原始署名
-- 附上许可协议链接
-- 说明是否做了修改
-
-详细说明见 [LICENSE](LICENSE)。
+- 外部资源可能随时间失效、迁移、收费或内容变更，收录不代表对第三方内容的完全背书。
+- 欢迎通过 Issue 或 PR 补充资源、修复链接或纠正文案。
+- 本仓库内容采用 [CC BY 4.0](LICENSE) 许可协议。

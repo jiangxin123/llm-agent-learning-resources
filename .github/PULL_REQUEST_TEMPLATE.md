@@ -15,6 +15,6 @@
 
 - [ ] I checked that the resource is not already duplicated
 - [ ] I verified the link is accessible
-- [ ] I placed the change in the correct `resources/*.md` file
-- [ ] I kept `README.md` focused on homepage navigation
-- [ ] I added or updated name, link, category, summary, target audience, and recommendation reason
+- [ ] I placed the change in the correct section of `README.md`
+- [ ] I kept `README.md` focused on helping readers choose learning resources quickly
+- [ ] I added or updated name, link, summary, target audience, and recommendation reason

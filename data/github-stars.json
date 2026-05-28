@@ -15,7 +15,7 @@
     ],
     "locations": [
       {
-        "file": "resources/llm.md",
+        "file": "README.md",
         "heading": "Happy-LLM"
       }
     ]
@@ -36,7 +36,7 @@
     ],
     "locations": [
       {
-        "file": "resources/llm.md",
+        "file": "README.md",
         "heading": "self-llm"
       }
     ]
@@ -57,7 +57,7 @@
     ],
     "locations": [
       {
-        "file": "resources/llm.md",
+        "file": "README.md",
         "heading": "LLMBook"
       }
     ]
@@ -78,7 +78,7 @@
     ],
     "locations": [
       {
-        "file": "resources/llm.md",
+        "file": "README.md",
         "heading": "llms-from-scratch-cn"
       }
     ]
@@ -99,7 +99,7 @@
     ],
     "locations": [
       {
-        "file": "resources/rag.md",
+        "file": "README.md",
         "heading": "all-in-rag"
       }
     ]
@@ -120,7 +120,7 @@
     ],
     "locations": [
       {
-        "file": "resources/rag.md",
+        "file": "README.md",
         "heading": "llm-universe"
       }
     ]
@@ -141,7 +141,7 @@
     ],
     "locations": [
       {
-        "file": "resources/agent.md",
+        "file": "README.md",
         "heading": "hello-agents"
       }
     ]
@@ -162,11 +162,7 @@
     ],
     "locations": [
       {
-        "file": "resources/agent.md",
-        "heading": "Agent-Learning-Hub"
-      },
-      {
-        "file": "resources/awesome.md",
+        "file": "README.md",
         "heading": "Agent-Learning-Hub"
       }
     ]
@@ -187,7 +183,7 @@
     ],
     "locations": [
       {
-        "file": "resources/agent.md",
+        "file": "README.md",
         "heading": "LangGraph"
       }
     ]
@@ -208,7 +204,7 @@
     ],
     "locations": [
       {
-        "file": "resources/agent.md",
+        "file": "README.md",
         "heading": "AutoGen"
       }
     ]
@@ -229,7 +225,7 @@
     ],
     "locations": [
       {
-        "file": "resources/agent.md",
+        "file": "README.md",
         "heading": "CrewAI"
       }
     ]
@@ -250,7 +246,7 @@
     ],
     "locations": [
       {
-        "file": "resources/agent.md",
+        "file": "README.md",
         "heading": "Dify"
       }
     ]
@@ -271,7 +267,7 @@
     ],
     "locations": [
       {
-        "file": "resources/courses.md",
+        "file": "README.md",
         "heading": "Microsoft Generative AI for Beginners"
       }
     ]
@@ -295,7 +291,7 @@
     ],
     "locations": [
       {
-        "file": "resources/awesome.md",
+        "file": "README.md",
         "heading": "Awesome-LLM"
       }
     ]
@@ -316,7 +312,7 @@
     ],
     "locations": [
       {
-        "file": "resources/awesome.md",
+        "file": "README.md",
         "heading": "Awesome Agent Learning"
       }
     ]
@@ -340,7 +336,7 @@
     ],
     "locations": [
       {
-        "file": "resources/awesome.md",
+        "file": "README.md",
         "heading": "Awesome AI Agents"
       }
     ]

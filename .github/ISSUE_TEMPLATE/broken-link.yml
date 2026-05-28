@@ -9,7 +9,7 @@ body:
     id: page
     attributes:
       label: Affected file or section
-      placeholder: e.g. resources/agent.md
+      placeholder: e.g. README.md - 想学 Agent / Workflow
     validations:
       required: true
   - type: input

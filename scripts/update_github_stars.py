@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch GitHub stars and sync them into data/github-stars.json and markdown pages."""
+"""Fetch GitHub stars and sync them into data/github-stars.json and README."""
 
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "github-stars.json"
-RESOURCE_DIR = ROOT / "resources"
+README_PATH = ROOT / "README.md"
 GITHUB_URL_RE = re.compile(r"https://github\.com/([^/\s]+)/([^/\s)]+?)(?:\.git)?(?:/)?$")
 
 
@@ -46,14 +46,13 @@ def extract_repo(url: str) -> str | None:
     return f"{owner}/{repo}"
 
 
-def scan_resource_repos() -> set[str]:
+def scan_readme_repos() -> set[str]:
+    content = README_PATH.read_text(encoding="utf-8")
     repos: set[str] = set()
-    for path in RESOURCE_DIR.glob("*.md"):
-        content = path.read_text(encoding="utf-8")
-        for url in re.findall(r"https://github\.com/[^\s)]+", content):
-            repo = extract_repo(url)
-            if repo:
-                repos.add(repo.lower())
+    for url in re.findall(r"https://github\.com/[^\s)]+", content):
+        repo = extract_repo(url)
+        if repo:
+            repos.add(repo.lower())
     return repos
 
 
@@ -97,51 +96,35 @@ def update_history(history: list[dict[str, Any]], date_str: str, stars: int) -> 
     return new_history
 
 
-def replace_stats_block(section_lines: list[str], record: dict[str, Any]) -> list[str]:
-    link_index = next((idx for idx, line in enumerate(section_lines) if line.startswith("- 链接：")), None)
-    if link_index is None:
-        raise ValueError(f"Could not find link line for heading {record['name']}")
+def replace_stars_in_table_row(line: str, record: dict[str, Any]) -> str:
+    stars_pattern = re.compile(r"⭐ Stars：[^<|]+")
+    replacement = f"⭐ Stars：{format_stars(record['stars'])}"
 
-    stats_lines = [
-        f"- Stars：{format_stars(record['stars'])}",
-        f"- 较上次变化：{format_delta(record['delta'])}",
-        f"- 统计时间：{record['last_updated']}",
-    ]
+    if stars_pattern.search(line):
+        return stars_pattern.sub(replacement, line, count=1)
 
-    next_index = link_index + 1
-    while next_index < len(section_lines) and section_lines[next_index].startswith(("- Stars：", "- 较上次变化：", "- 统计时间：")):
-        next_index += 1
+    link_pattern = re.compile(rf"(\[{re.escape(record['name'])}\]\([^)]+\))")
+    if not link_pattern.search(line):
+        raise ValueError(f"Could not find resource link for {record['name']}")
 
-    return section_lines[: link_index + 1] + stats_lines + section_lines[next_index:]
+    return link_pattern.sub(rf"\1<br>{replacement}", line, count=1)
 
 
 def update_markdown_for_location(record: dict[str, Any], location: dict[str, str]) -> bool:
     path = ROOT / location["file"]
     content = path.read_text(encoding="utf-8").splitlines()
-    heading = f"### {location['heading']}"
+    row_pattern = re.compile(rf"\[{re.escape(location['heading'])}\]\([^)]+\)")
 
-    start = None
     for idx, line in enumerate(content):
-        if line.strip() == heading:
-            start = idx
-            break
-    if start is None:
-        raise ValueError(f"Heading {heading} not found in {location['file']}")
+        if row_pattern.search(line):
+            updated_line = replace_stars_in_table_row(line, record)
+            if updated_line == line:
+                return False
+            content[idx] = updated_line
+            path.write_text("\n".join(content) + "\n", encoding="utf-8")
+            return True
 
-    end = len(content)
-    for idx in range(start + 1, len(content)):
-        if content[idx].startswith("### "):
-            end = idx
-            break
-
-    original_section = content[start:end]
-    updated_section = replace_stats_block(original_section, record)
-    if original_section == updated_section:
-        return False
-
-    new_content = content[:start] + updated_section + content[end:]
-    path.write_text("\n".join(new_content) + "\n", encoding="utf-8")
-    return True
+    raise ValueError(f"Table row for {location['heading']} not found in {location['file']}")
 
 
 def sync_markdown(records: list[dict[str, Any]]) -> list[str]:
@@ -166,7 +149,7 @@ def main() -> int:
         declared_repos.add(record["repo"].lower())
         for alias in record.get("aliases", []):
             declared_repos.add(alias.lower())
-    scanned_repos = scan_resource_repos()
+    scanned_repos = scan_readme_repos()
     missing_repos = sorted(scanned_repos - declared_repos)
     if missing_repos:
         print("Missing GitHub repos in data/github-stars.json:", file=sys.stderr)

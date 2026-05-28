@@ -73,10 +73,10 @@ https://github.com/jiangxin123/llm-agent-learning-resources
 ## Highlights
 
 - 首发版本上线，完成仓库基础结构搭建
-- README 重构为项目首页导航
-- 新增分类资源目录：LLM、RAG、Agent、Courses、Awesome
+- README 重构为单页资源导航
+- 按学习目标整理 LLM、RAG、Agent、课程与导航类资源
 - 补齐贡献指南、行为准则、安全策略、Issue / PR 模板
-- 明确资源收录标准、贡献入口与维护方式
+- 增加 GitHub 仓库星标追踪，辅助判断资料热度
 
 ## Included categories
 
@@ -115,7 +115,7 @@ https://github.com/jiangxin123/llm-agent-learning-resources
 - 纠正分类或简介
 - 分享你的学习路线和实践经验
 
-如果你是第一次来到这里，建议先从 README 里的“快速选资源”和“推荐学习路线”开始。
+如果你是第一次来到这里，建议直接从 README 中最符合你当前目标的资源分组开始。
 
 也欢迎直接在 Discussions 里交流：
 
