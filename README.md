@@ -16,7 +16,7 @@
 
 | 资源 | 简介 | 适合谁 / 推荐理由 |
 | --- | --- | --- |
-| [Happy-LLM](https://github.com/datawhalechina/happy-llm)<br>⭐ Stars：30.7k| 中文友好的系统教程，覆盖大模型核心原理与实践。 | 适合谁：想系统理解 Transformer、预训练和推理机制的人。<br>推荐理由：适合作为大模型原理主线教材。 |
+| [Happy-LLM](https://github.com/datawhalechina/happy-llm)<br>⭐ Stars：30.8k| 中文友好的系统教程，覆盖大模型核心原理与实践。 | 适合谁：想系统理解 Transformer、预训练和推理机制的人。<br>推荐理由：适合作为大模型原理主线教材。 |
 | [LLMBook](https://github.com/datawhalechina/llmbook)<br>⭐ Stars：137| 偏教材化、体系化的大模型资料。 | 适合谁：希望系统补课、需要一本中文手册型资料的人。<br>推荐理由：适合查漏补缺和构建知识地图。 |
 | [llms-from-scratch-cn](https://github.com/datawhalechina/llms-from-scratch-cn)<br>⭐ Stars：4.2k| 从 0 到 1 实现一个大模型的中文项目。 | 适合谁：代码基础较好、想深入底层机制的人。<br>推荐理由：能帮助你从实现角度理解模型结构和训练逻辑。 |
 | [Hugging Face LLM Course](https://huggingface.co/huggingface-course) | 面向 NLP 与模型基础的公开课程。 | 适合谁：想系统补理论和 Hugging Face 生态知识的人。<br>推荐理由：结构清晰，适合和中文资料互补。 |
@@ -50,13 +50,13 @@
 
 | 资源 | 简介 | 适合谁 / 推荐理由 |
 | --- | --- | --- |
-| [hello-agents](https://github.com/datawhalechina/hello-agents)<br>⭐ Stars：54.7k| 从 0 讲解 Agent 基本概念、范式和实战思路。 | 适合谁：想从零入门 Agent 的开发者。<br>推荐理由：适合作为 Agent 第一门中文课。 |
+| [hello-agents](https://github.com/datawhalechina/hello-agents)<br>⭐ Stars：54.8k| 从 0 讲解 Agent 基本概念、范式和实战思路。 | 适合谁：想从零入门 Agent 的开发者。<br>推荐理由：适合作为 Agent 第一门中文课。 |
 | [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents) | 讲清楚 Agent 的模型、工具、知识与控制流。 | 适合谁：想建立现代 Agent 官方视角的人。<br>推荐理由：概念准，适合作为实践前的统一参照。 |
 | [OpenAI Agents SDK](https://platform.openai.com/docs/guides/agents-sdk/) | OpenAI Agent 开发 SDK 文档。 | 适合谁：准备真正编写 Agent 代码的人。<br>推荐理由：适合把概念落到实际实现。 |
 | [LangGraph](https://github.com/langchain-ai/langgraph)<br>⭐ Stars：33.4k| 适合复杂、可控、可恢复的 Agent 工作流编排框架。 | 适合谁：要做多步骤、生产级 Agent 的团队。<br>推荐理由：当前 Agent 工作流领域的重要框架。 |
-| [AutoGen](https://github.com/microsoft/autogen)<br>⭐ Stars：58.5k| 微软推出的多 Agent 编程框架。 | 适合谁：研究型、多角色协作型场景。<br>推荐理由：适合探索协同式 Agent 设计。 |
+| [AutoGen](https://github.com/microsoft/autogen)<br>⭐ Stars：58.6k| 微软推出的多 Agent 编程框架。 | 适合谁：研究型、多角色协作型场景。<br>推荐理由：适合探索协同式 Agent 设计。 |
 | [CrewAI](https://github.com/crewAIInc/crewAI)<br>⭐ Stars：52.5k| 强调角色分工和任务协作的多 Agent 框架。 | 适合谁：想快速组织多个角色 Agent 的开发者。<br>推荐理由：概念清晰，适合任务拆分类场景。 |
-| [Dify](https://github.com/langgenius/dify)<br>⭐ Stars：143.1k| 开源 LLM 应用开发平台，支持工作流、RAG 和 Agent。 | 适合谁：想快速做产品原型、低代码搭建应用的人。<br>推荐理由：适合团队协作与快速产品化。 |
+| [Dify](https://github.com/langgenius/dify)<br>⭐ Stars：143.2k| 开源 LLM 应用开发平台，支持工作流、RAG 和 Agent。 | 适合谁：想快速做产品原型、低代码搭建应用的人。<br>推荐理由：适合团队协作与快速产品化。 |
 
 ## 🎓 想系统跟课程学习
 
