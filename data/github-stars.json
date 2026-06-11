@@ -4,9 +4,9 @@
     "name": "Happy-LLM",
     "repo": "datawhalechina/happy-llm",
     "url": "https://github.com/datawhalechina/happy-llm",
-    "stars": 31034,
-    "delta": 55,
-    "last_updated": "2026-06-10",
+    "stars": 31083,
+    "delta": 49,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -63,6 +63,10 @@
       {
         "date": "2026-06-10",
         "stars": 31034
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 31083
       }
     ],
     "locations": [
@@ -77,9 +81,9 @@
     "name": "self-llm",
     "repo": "datawhalechina/self-llm",
     "url": "https://github.com/datawhalechina/self-llm",
-    "stars": 30818,
-    "delta": 16,
-    "last_updated": "2026-06-10",
+    "stars": 30838,
+    "delta": 20,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -136,6 +140,10 @@
       {
         "date": "2026-06-10",
         "stars": 30818
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 30838
       }
     ],
     "locations": [
@@ -152,7 +160,7 @@
     "url": "https://github.com/datawhalechina/llmbook",
     "stars": 140,
     "delta": 0,
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -209,6 +217,10 @@
       {
         "date": "2026-06-10",
         "stars": 140
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 140
       }
     ],
     "locations": [
@@ -224,8 +236,8 @@
     "repo": "datawhalechina/llms-from-scratch-cn",
     "url": "https://github.com/datawhalechina/llms-from-scratch-cn",
     "stars": 4204,
-    "delta": 2,
-    "last_updated": "2026-06-10",
+    "delta": 0,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -282,6 +294,10 @@
       {
         "date": "2026-06-10",
         "stars": 4204
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 4204
       }
     ],
     "locations": [
@@ -296,9 +312,9 @@
     "name": "all-in-rag",
     "repo": "datawhalechina/all-in-rag",
     "url": "https://github.com/datawhalechina/all-in-rag",
-    "stars": 8417,
-    "delta": 43,
-    "last_updated": "2026-06-10",
+    "stars": 8466,
+    "delta": 49,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -355,6 +371,10 @@
       {
         "date": "2026-06-10",
         "stars": 8417
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 8466
       }
     ],
     "locations": [
@@ -369,9 +389,9 @@
     "name": "llm-universe",
     "repo": "datawhalechina/llm-universe",
     "url": "https://github.com/datawhalechina/llm-universe",
-    "stars": 13224,
+    "stars": 13232,
     "delta": 8,
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -428,6 +448,10 @@
       {
         "date": "2026-06-10",
         "stars": 13224
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 13232
       }
     ],
     "locations": [
@@ -442,9 +466,9 @@
     "name": "hello-agents",
     "repo": "datawhalechina/hello-agents",
     "url": "https://github.com/datawhalechina/hello-agents",
-    "stars": 58091,
-    "delta": 414,
-    "last_updated": "2026-06-10",
+    "stars": 58413,
+    "delta": 322,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -501,6 +525,10 @@
       {
         "date": "2026-06-10",
         "stars": 58091
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 58413
       }
     ],
     "locations": [
@@ -515,9 +543,9 @@
     "name": "Agent-Learning-Hub",
     "repo": "datawhalechina/Agent-Learning-Hub",
     "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
-    "stars": 3354,
-    "delta": 96,
-    "last_updated": "2026-06-10",
+    "stars": 3454,
+    "delta": 100,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -574,6 +602,10 @@
       {
         "date": "2026-06-10",
         "stars": 3354
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 3454
       }
     ],
     "locations": [
@@ -588,9 +620,9 @@
     "name": "LangGraph",
     "repo": "langchain-ai/langgraph",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 34328,
-    "delta": 100,
-    "last_updated": "2026-06-10",
+    "stars": 34417,
+    "delta": 89,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -647,6 +679,10 @@
       {
         "date": "2026-06-10",
         "stars": 34328
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 34417
       }
     ],
     "locations": [
@@ -661,9 +697,9 @@
     "name": "AutoGen",
     "repo": "microsoft/autogen",
     "url": "https://github.com/microsoft/autogen",
-    "stars": 58825,
-    "delta": 33,
-    "last_updated": "2026-06-10",
+    "stars": 58864,
+    "delta": 39,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -720,6 +756,10 @@
       {
         "date": "2026-06-10",
         "stars": 58825
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 58864
       }
     ],
     "locations": [
@@ -734,9 +774,9 @@
     "name": "CrewAI",
     "repo": "crewAIInc/crewAI",
     "url": "https://github.com/crewAIInc/crewAI",
-    "stars": 53180,
-    "delta": 69,
-    "last_updated": "2026-06-10",
+    "stars": 53250,
+    "delta": 70,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -793,6 +833,10 @@
       {
         "date": "2026-06-10",
         "stars": 53180
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 53250
       }
     ],
     "locations": [
@@ -807,9 +851,9 @@
     "name": "Dify",
     "repo": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
-    "stars": 144645,
-    "delta": 152,
-    "last_updated": "2026-06-10",
+    "stars": 144818,
+    "delta": 173,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -866,6 +910,10 @@
       {
         "date": "2026-06-10",
         "stars": 144645
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 144818
       }
     ],
     "locations": [
@@ -880,9 +928,9 @@
     "name": "Microsoft Generative AI for Beginners",
     "repo": "microsoft/generative-ai-for-beginners",
     "url": "https://github.com/microsoft/generative-ai-for-beginners",
-    "stars": 111814,
-    "delta": 26,
-    "last_updated": "2026-06-10",
+    "stars": 111858,
+    "delta": 44,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -939,6 +987,10 @@
       {
         "date": "2026-06-10",
         "stars": 111814
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 111858
       }
     ],
     "locations": [
@@ -953,9 +1005,9 @@
     "name": "Awesome-LLM",
     "repo": "Hannibal046/Awesome-LLM",
     "url": "https://github.com/Hannibal046/Awesome-LLM",
-    "stars": 26920,
-    "delta": 6,
-    "last_updated": "2026-06-10",
+    "stars": 26921,
+    "delta": 1,
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -1012,6 +1064,10 @@
       {
         "date": "2026-06-10",
         "stars": 26920
+      },
+      {
+        "date": "2026-06-11",
+        "stars": 26921
       }
     ],
     "aliases": [
@@ -1031,7 +1087,7 @@
     "url": "https://github.com/artnitolog/awesome-agent-learning",
     "stars": 133,
     "delta": 0,
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -1087,6 +1143,10 @@
       },
       {
         "date": "2026-06-10",
+        "stars": 133
+      },
+      {
+        "date": "2026-06-11",
         "stars": 133
       }
     ],
@@ -1104,7 +1164,7 @@
     "url": "https://github.com/brandonhimpfen/awesome-ai-agents",
     "stars": 11,
     "delta": 0,
-    "last_updated": "2026-06-10",
+    "last_updated": "2026-06-11",
     "history": [
       {
         "date": "2026-05-28",
@@ -1160,6 +1220,10 @@
       },
       {
         "date": "2026-06-10",
+        "stars": 11
+      },
+      {
+        "date": "2026-06-11",
         "stars": 11
       }
     ],
