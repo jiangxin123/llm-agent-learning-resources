@@ -27,7 +27,7 @@
 
 | 资源 | 简介 | 适合谁 / 推荐理由 |
 | --- | --- | --- |
-| [self-llm](https://github.com/datawhalechina/self-llm)<br>⭐ Stars：30.8k| 面向中文开发者的开源大模型部署、微调与使用实战教程。 | 适合谁：想尽快把本地或开源模型跑起来的人。<br>推荐理由：上手导向强，适合从“先跑通”切入大模型实践。 |
+| [self-llm](https://github.com/datawhalechina/self-llm)<br>⭐ Stars：30.9k| 面向中文开发者的开源大模型部署、微调与使用实战教程。 | 适合谁：想尽快把本地或开源模型跑起来的人。<br>推荐理由：上手导向强，适合从“先跑通”切入大模型实践。 |
 | [llm-universe](https://github.com/datawhalechina/llm-universe)<br>⭐ Stars：13.2k| 面向应用开发者的大模型实践项目，包含知识库与应用搭建路线。 | 适合谁：想快速搭建大模型应用的人。<br>推荐理由：适合从“跑通应用”视角切入 RAG 和应用开发。 |
 | [OpenAI Responses API](https://platform.openai.com/docs/api-reference/responses/create?api-mode=responses) | 当前 OpenAI 的核心生成式接口文档。 | 适合谁：想理解现代模型接口、多模态和结构化输出的人。<br>推荐理由：能帮助你把基础认知连接到实际 API 使用。 |
 
@@ -50,13 +50,13 @@
 
 | 资源 | 简介 | 适合谁 / 推荐理由 |
 | --- | --- | --- |
-| [hello-agents](https://github.com/datawhalechina/hello-agents)<br>⭐ Stars：58.4k| 从 0 讲解 Agent 基本概念、范式和实战思路。 | 适合谁：想从零入门 Agent 的开发者。<br>推荐理由：适合作为 Agent 第一门中文课。 |
+| [hello-agents](https://github.com/datawhalechina/hello-agents)<br>⭐ Stars：58.6k| 从 0 讲解 Agent 基本概念、范式和实战思路。 | 适合谁：想从零入门 Agent 的开发者。<br>推荐理由：适合作为 Agent 第一门中文课。 |
 | [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents) | 讲清楚 Agent 的模型、工具、知识与控制流。 | 适合谁：想建立现代 Agent 官方视角的人。<br>推荐理由：概念准，适合作为实践前的统一参照。 |
 | [OpenAI Agents SDK](https://platform.openai.com/docs/guides/agents-sdk/) | OpenAI Agent 开发 SDK 文档。 | 适合谁：准备真正编写 Agent 代码的人。<br>推荐理由：适合把概念落到实际实现。 |
-| [LangGraph](https://github.com/langchain-ai/langgraph)<br>⭐ Stars：34.4k| 适合复杂、可控、可恢复的 Agent 工作流编排框架。 | 适合谁：要做多步骤、生产级 Agent 的团队。<br>推荐理由：当前 Agent 工作流领域的重要框架。 |
+| [LangGraph](https://github.com/langchain-ai/langgraph)<br>⭐ Stars：34.5k| 适合复杂、可控、可恢复的 Agent 工作流编排框架。 | 适合谁：要做多步骤、生产级 Agent 的团队。<br>推荐理由：当前 Agent 工作流领域的重要框架。 |
 | [AutoGen](https://github.com/microsoft/autogen)<br>⭐ Stars：58.9k| 微软推出的多 Agent 编程框架。 | 适合谁：研究型、多角色协作型场景。<br>推荐理由：适合探索协同式 Agent 设计。 |
-| [CrewAI](https://github.com/crewAIInc/crewAI)<br>⭐ Stars：53.2k| 强调角色分工和任务协作的多 Agent 框架。 | 适合谁：想快速组织多个角色 Agent 的开发者。<br>推荐理由：概念清晰，适合任务拆分类场景。 |
-| [Dify](https://github.com/langgenius/dify)<br>⭐ Stars：144.8k| 开源 LLM 应用开发平台，支持工作流、RAG 和 Agent。 | 适合谁：想快速做产品原型、低代码搭建应用的人。<br>推荐理由：适合团队协作与快速产品化。 |
+| [CrewAI](https://github.com/crewAIInc/crewAI)<br>⭐ Stars：53.3k| 强调角色分工和任务协作的多 Agent 框架。 | 适合谁：想快速组织多个角色 Agent 的开发者。<br>推荐理由：概念清晰，适合任务拆分类场景。 |
+| [Dify](https://github.com/langgenius/dify)<br>⭐ Stars：144.9k| 开源 LLM 应用开发平台，支持工作流、RAG 和 Agent。 | 适合谁：想快速做产品原型、低代码搭建应用的人。<br>推荐理由：适合团队协作与快速产品化。 |
 
 ## 🎓 想系统跟课程学习
 
