@@ -50,13 +50,13 @@
 
 | 资源 | 简介 | 适合谁 / 推荐理由 |
 | --- | --- | --- |
-| [hello-agents](https://github.com/datawhalechina/hello-agents)<br>⭐ Stars：60.2k| 从 0 讲解 Agent 基本概念、范式和实战思路。 | 适合谁：想从零入门 Agent 的开发者。<br>推荐理由：适合作为 Agent 第一门中文课。 |
+| [hello-agents](https://github.com/datawhalechina/hello-agents)<br>⭐ Stars：60.3k| 从 0 讲解 Agent 基本概念、范式和实战思路。 | 适合谁：想从零入门 Agent 的开发者。<br>推荐理由：适合作为 Agent 第一门中文课。 |
 | [OpenAI Agents Guide](https://platform.openai.com/docs/guides/agents) | 讲清楚 Agent 的模型、工具、知识与控制流。 | 适合谁：想建立现代 Agent 官方视角的人。<br>推荐理由：概念准，适合作为实践前的统一参照。 |
 | [OpenAI Agents SDK](https://platform.openai.com/docs/guides/agents-sdk/) | OpenAI Agent 开发 SDK 文档。 | 适合谁：准备真正编写 Agent 代码的人。<br>推荐理由：适合把概念落到实际实现。 |
-| [LangGraph](https://github.com/langchain-ai/langgraph)<br>⭐ Stars：35.1k| 适合复杂、可控、可恢复的 Agent 工作流编排框架。 | 适合谁：要做多步骤、生产级 Agent 的团队。<br>推荐理由：当前 Agent 工作流领域的重要框架。 |
+| [LangGraph](https://github.com/langchain-ai/langgraph)<br>⭐ Stars：35.2k| 适合复杂、可控、可恢复的 Agent 工作流编排框架。 | 适合谁：要做多步骤、生产级 Agent 的团队。<br>推荐理由：当前 Agent 工作流领域的重要框架。 |
 | [AutoGen](https://github.com/microsoft/autogen)<br>⭐ Stars：59.1k| 微软推出的多 Agent 编程框架。 | 适合谁：研究型、多角色协作型场景。<br>推荐理由：适合探索协同式 Agent 设计。 |
 | [CrewAI](https://github.com/crewAIInc/crewAI)<br>⭐ Stars：53.9k| 强调角色分工和任务协作的多 Agent 框架。 | 适合谁：想快速组织多个角色 Agent 的开发者。<br>推荐理由：概念清晰，适合任务拆分类场景。 |
-| [Dify](https://github.com/langgenius/dify)<br>⭐ Stars：145.7k| 开源 LLM 应用开发平台，支持工作流、RAG 和 Agent。 | 适合谁：想快速做产品原型、低代码搭建应用的人。<br>推荐理由：适合团队协作与快速产品化。 |
+| [Dify](https://github.com/langgenius/dify)<br>⭐ Stars：145.8k| 开源 LLM 应用开发平台，支持工作流、RAG 和 Agent。 | 适合谁：想快速做产品原型、低代码搭建应用的人。<br>推荐理由：适合团队协作与快速产品化。 |
 
 ## 🎓 想系统跟课程学习
 
